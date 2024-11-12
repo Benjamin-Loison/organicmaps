@@ -75,7 +75,7 @@ If you're only doing a one-off build or your internet bandwidth or disk space is
 
 If you mistakenly did a `git clone` without checking out submodules, you can run `git submodule update --init --recursive`. If you don't want to clone complete submodules, you can add `--depth=1` to the update command.
 
-To be able to publish the app in stores e.g. in Google Play its necessary to populate some configs with private keys, etc.
+To be able to publish the app in stores e.g. in Google Play it's necessary to populate some configs with private keys, etc.
 Check `./configure.sh --help` to see how to copy the configs automatically from a private repository.
 
 ## Desktop app
